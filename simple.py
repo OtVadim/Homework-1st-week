@@ -1,0 +1,15 @@
+a = 2
+b = 0.5
+print(a + b)
+name = input()
+print(f'Привет {name}!')
+n = int(input())
+print(n + 10)
+m = input()
+print(f'Привет, {m}! Как дела?')
+x1 = float('1')
+x2 = int('2.5')
+x3 = bool(1)
+x4 = bool('')
+x5 = bool(0)
+print(x1, x2, x3, x4, x5, sep = '\n')
